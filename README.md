@@ -1,2 +1,6 @@
 # p5-photo-pixel-drawer
-Use p5.js to draw shapes using a photo's pixels
+
+Ignore the repo name.  This is just a `p5.js` sandbox.  Uses Docker to start a development server:
+ ```
+ ./dev.sh
+ ```
