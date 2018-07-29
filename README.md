@@ -1,6 +1,9 @@
 # p5-photo-pixel-drawer
 
-Ignore the repo name.  This is just a `p5.js` sandbox.  Uses Docker to start a development server:
+A `p5.js` sandbox.  Uses Docker to start a development server to avoid CORS errors:
  ```
- ./dev.sh
+ $ ./dev.sh install
+ $ ./dev.sh start
+ $ ./dev.sh stop
+ $ ./dev.sh uninstall
  ```
