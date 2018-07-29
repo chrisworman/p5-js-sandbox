@@ -1,4 +1,4 @@
-# p5-photo-pixel-drawer
+# `p5.js` sandbox
 
 A `p5.js` sandbox.  Uses Docker to start a development server to avoid CORS errors:
  ```
