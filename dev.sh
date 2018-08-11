@@ -5,7 +5,7 @@ install() {
 }
 
 start() {
-  docker run -dit --name p5-js-sandbox-container -p 8080:80 p5-js-sandbox-image
+  docker run -dit -v `pwd`/src:/usr/local/apache2/htdocs --name p5-js-sandbox-container -p 8080:80 p5-js-sandbox-image
 }
 
 stop() {
