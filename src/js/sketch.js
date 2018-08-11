@@ -1,4 +1,3 @@
-//var r,g,b;
 var gravity;
 var ballRestitution = 0.8;
 var wallFriction = 0.9;
@@ -9,7 +8,7 @@ function setup() {
   width = 800;
   height = 400;
   createCanvas(width, height);
-  gravity = createVector(0.8, 0);
+  gravity = createVector(0, 0.8);
 }
 
 function mouseClicked() {
